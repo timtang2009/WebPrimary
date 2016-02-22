@@ -10,13 +10,13 @@ public class CRUDTester extends BaseTest {
 	@Test
 	public void testInsert() {
 		User user = new User();
-		user.setName("Tim");
-		user.setAge(26);
-		user.setEmail("timtang_09@hotmail.com");
+		user.setName("Kobe");
+		user.setAge(38);
+		user.setEmail("kobe_bryant@gmail.com");
 		user.setPassword("password");
 		userService.insertUser(user);
 		User user2 = userService.getUser(1);
-		Assert.assertEquals(user2.getName(), "Tim");
+		Assert.assertEquals(user2.getName(), "Kobe");
 	}
 	
 }
