@@ -6,12 +6,14 @@
             
          <insert id="insertUser" parameterType="User" >
          insert into user(  
+         id,
          name,
          age,
          password,
          email) 
          values 
-         (        
+         (    
+         #{id},    
          #{name},
          #{age},
          #{password},

@@ -10,6 +10,7 @@ public class CRUDTester extends BaseTest {
 	@Test
 	public void testInsert() {
 		User user = new User();
+		user.setId(2);
 		user.setName("Kobe");
 		user.setAge(38);
 		user.setEmail("kobe_bryant@gmail.com");
