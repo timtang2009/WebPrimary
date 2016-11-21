@@ -4,9 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>welcome</title>
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="Login.css"/>
 </head>
 <body>
-<h1>欢迎你！！！</h1>
+	<div id="login">  
+        <h1>登录</h1>  
+        <form method="post">  
+            <input type="text" required="required" placeholder="用户名" name="u"></input>  
+            <input type="password" required="required" placeholder="密码" name="p"></input>  
+            <button class="but" type="submit">登录</button>  
+        </form>  
+    </div>
 </body>
 </html>

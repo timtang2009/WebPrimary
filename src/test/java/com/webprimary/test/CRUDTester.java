@@ -1,5 +1,8 @@
 package com.webprimary.test;
 
+import java.util.Map;
+import java.util.TreeMap;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -17,7 +20,13 @@ public class CRUDTester extends BaseTest {
 		user.setPassword("password");
 		userService.insertUser(user);
 		User user2 = userService.getUser(1);
+		Map<String, Object> map = new TreeMap<>();
 		Assert.assertEquals(user2.getName(), "Kobe");
 	}
 	
+	@Test
+	public void test2() {
+		Integer a = 3;
+		System.out.println(a.hashCode());
+	}
 }
