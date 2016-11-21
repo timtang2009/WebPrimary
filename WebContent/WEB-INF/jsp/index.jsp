@@ -70,12 +70,13 @@ input{
 </head>
 <body>
 	<div id="login">  
-        <h1>登录</h1>  
+        <h1>LogIn</h1>  
         <form method="post" action="">  
-            <input type="text" required="required" placeholder="用户名" name="u"></input>  
-            <input type="password" required="required" placeholder="密码" name="p"></input>  
-            <button class="but" type="submit" id="loginButton">登录</button>
-        </form>  
+            <input type="text" required="required" placeholder="username" name="u"></input>  
+            <input type="password" required="required" placeholder="password" name="p"></input>  
+            <button class="but" type="submit" id="loginButton">login</button>
+            <tr><a class="h1" href="http://www.baidu.com" target="_blank">register</a></tr>
+        </form>
     </div>
     <script language="javascript">
         function login() {
